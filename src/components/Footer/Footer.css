@@ -1,10 +1,11 @@
 .footer {
     background-color: #4a4ea0;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color:white;
     width: 100%;
-   
+    position: fixed;
+    bottom: 0;
   }
   
   .footer-content {
@@ -14,7 +15,7 @@
   }
   
   .social-icons {
-    margin-top: 10px;
+    margin-top: 5px;
   }
   
   .icon {
@@ -27,3 +28,9 @@
     color: #517283; 
   }
   
+
+  .text-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

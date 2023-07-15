@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>Made with ❤️ by Arjun</p>
-        <p>Connect with me:</p>
+     
         <div className="social-icons">
+        <p className="text-footer">Made with ❤️ by Arjun || please Connect with me:
           <a href="https://www.linkedin.com/in/arjunrajput18/" target="__blank">
             <FaLinkedin className="icon" />
           </a>
@@ -18,6 +18,7 @@ const Footer = () => {
           <a href="https://github.com/arjunrajput18" target="__blank">
             <FaGithub className="icon" />
           </a>
+        </p>
         </div>
       </div>
     </footer>

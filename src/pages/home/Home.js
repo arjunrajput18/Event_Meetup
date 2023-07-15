@@ -42,7 +42,7 @@ export const Home = () => {
   };
 
   return (
-    <div>
+    <div className="mainContainer">
       <div className="header-container">
         <button
           className="addNewEvent-btn"
