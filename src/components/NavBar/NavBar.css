@@ -1,0 +1,31 @@
+.navBar-MainContainer {
+    background-color: #4a4ea0;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+  }
+  .inputSearch {
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+  }
+  
+  .navBar-heading {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .navBar-heading svg {
+    margin-right: 10px;
+    fill: #f64060;
+    height: 20px;
+  }
+  
+  .navBar-heading h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  

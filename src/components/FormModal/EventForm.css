@@ -1,0 +1,151 @@
+.modalWrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+  }
+ 
+  
+ 
+  
+  .event-form {
+    z-index: 10000;
+    position: fixed;
+    background-color: white;
+    min-width: 300px;
+    max-width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    height: 90vh;
+    overflow-y: scroll;
+  }
+  
+  .event-form::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .event-form::-webkit-scrollbar-thumb {
+    background-color: #4caf50;
+    border-radius: 5px;
+  }
+  
+  .event-form::-webkit-scrollbar-thumb:hover {
+    background-color: #45a049;
+  }
+  
+  .event-form h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 1.2rem;
+
+  }
+  
+  .inner-event-form {
+    display: flex;
+    flex-direction: column;
+ 
+  }
+  
+   .formContent {
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    justify-content: space-between;
+    gap: 1rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    
+  }
+  
+  .event-form form input,
+  .event-form form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .event-form form textarea {
+    height: 50px;
+    
+  }
+  .event-form form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+  }
+  
+  .event-form form select:focus {
+    outline: none;
+    border-color: #4caf50;
+  }
+  
+ 
+  .event-form form select::-moz-focus-inner {
+    border: 0;
+  }
+  
+ 
+  .event-form form select::after {
+    position: absolute;
+
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #6f6f6f;
+    pointer-events: none;
+  }
+  
+  .event-form form button {
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .btns-save-cancel {
+    display: flex;
+    justify-content: space-evenly;
+  margin-top: 0.4rem;
+  }
+  .closebtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .closebtn svg {
+    width: 20px;
+    height: 20px;
+    fill: #000;
+  }
+  
+  .closebtn:hover svg {
+    fill: #ff0000;
+  }
+  .closeBtn-box{
+    position: absolute;
+    right: 6%;
+  }
+  

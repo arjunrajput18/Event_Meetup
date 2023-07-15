@@ -1,0 +1,51 @@
+
+
+.mainEvent-Details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+padding: 2rem;
+}
+.event-details {
+    margin: 20px;
+  }
+  
+  .event-details h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .event-info {
+    display: flex;
+  }
+  
+  .thumbnail {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .description {
+    flex: 2;
+  }
+  
+  .description p {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    -ms-border-radius: 0.4rem;
+    -o-border-radius: 0.4rem;
+}
+  
+ 
